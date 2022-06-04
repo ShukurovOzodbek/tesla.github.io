@@ -81,16 +81,16 @@ input:checked[type="checkbox"]::before{
 .wh {
     position: absolute;
     top: 332px;
-    left: 453px;
+    left: 471px;
     width: 130px;
-    animation: speed .1s ease 7ms infinite ;
+    animation: speed .1s ease 7ms infinite;
 }
 .wh2 {
     position: absolute;
     top: 333px;
-    left: 932px;
+    left: 958px;
     width: 120px;
-    animation: speed .1s ease 7ms infinite ;
+    animation: speed .1s ease 7ms infinite;
 }
 @keyframes speed {
 	0% {
