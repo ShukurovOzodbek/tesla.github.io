@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="./img/tesla.png" class="tesla">
+            <img src="./img/wheel2png-removebg-preview.png" class="wh">
+            <img src="./img/wheel2png-removebg-preview.png" class="wh2">
+        </div>
+        <div class="about">
+            <div class="top">
+                <div class="left">
+                    <p>Запас хода</p>
+                    <div class="temperature">
+                        <h2 class="zp">590</h2><b>KM</b>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>Цена</p>
+                    <div class="temperature">
+                        <h2 class="price">48000</h2><b>$</b>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>
+                    <p>Скорость автомобиля</p>
+                    <h2 class="speed">40</h2>
+                </div>
+                <div class="tp">
+                    <img class="speedtop" src="./img/top.png">
+                    <img class="speedbot" src="./img/bottom.png">
+                </div>
+                <div>
+                    <p>Температура за окнами</p>
+                    <div class="temperature">
+                        <h2 class="temp">29</h2> <b>°C</b>
+                    </div>
+                </div>
+                <div class="tp">
+                    <img src="./img/top.png" class="temptop">
+                    <img src="./img/bottom.png" class="tempbot">
+                </div>
+                <div>
+                    <p>Диски</p>
+                    <h2 class="disk">18</h2>
+                </div>
+                <div class="tp">
+                    <img src="./img/top.png" class="disktop">
+                    <img src="./img/bottom.png" class="diskbot">
+                </div>
+                <div>
+                    <p>Кондиционер</p>
+                    <input type="checkbox" class="kond">
+                </div>
+                <div>
+                    <p>Версия Long Range</p>
+                    <input type="checkbox" class="version">
+                </div>
+                <div class="viwi">
+                    <p>Вид автомобиля</p>
+                    <input type="checkbox" class="view">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_2">
+        <div class="image">
+            <img src="./img/salon.png" class="tesla" id="tesla">
+        </div>
+        <div class="about">    
+                <div class="top">
+                    <div class="left">
+                        <p>Запас хода</p>
+                        <div class="temperature">
+                            <h2 class="zp">590</h2><b>KM</b>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p>Цена</p>
+                        <div class="temperature">
+                            <h2 id="pr" class="price">48000</h2><b>$</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="viwi">
+                        <p>Вид автомобиля</p>
+                        <input id="vw" type="checkbox" class="view">
+                    </div>
+                    <div>
+                        <p>Цвет салона</p>
+                        <div class="tem">
+                            <div class="cir"></div>
+                            <div class="cir2"></div>
+                            <div class="cir3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
